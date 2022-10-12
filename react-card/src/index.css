@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family:'Arial Narrow Bold', sans-serif,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container 
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 25rem;
+  border-radius: 4%;
+  margin: auto;
+  background-color: hsl(233, 14%, 12%);
+}
+/* Main component */
+.container > img 
+{
+  width: 25rem;
+  height: 25rem;
+  border-radius: 4%;
+}
+
+main 
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+main > h3
+{
+  color: #ffff;
+  margin-bottom: 0;
+  font-size: x-large;
+
+}
+
+main > h4
+{
+  color: rgb(254, 215, 166);
+  margin-top: 1%;
+  font-weight: 200;
+  font-size: small;
+  margin-bottom: 0;
+}
+
+main > a 
+{
+  text-decoration: none;
+  color: white;
+  font-weight: inherit;
+  font-size: 100;
+  margin-top: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.Btn 
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+
+.Btn > button
+{
+  width: 8rem;
+  height: 3em;
+  border: none;
+  border-radius: 10%;
+  margin: 0.7rem;
+  cursor: pointer;
+}
+
+.Btn__Email
+{
+  background-color: white;
+}
+
+.Btn__Linkedln
+{
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.About__me > h4
+{
+  color: white;
+  display: flex;
+  margin-left: 2.2rem;
+}
+
+.About__me > p 
+{
+  color: #ddd;
+  font-weight: 100;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.Intrests > h4
+{
+  color: white;
+  display: flex;
+  margin-left: 2rem;
+
+}
+
+.Intrests > p 
+{
+  color: #ddd;
+  font-weight: 100;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* Footer component */
+
+footer > h4 
+{
+  color: white;
+  text-align: center;
+}
