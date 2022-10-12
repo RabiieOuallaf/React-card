@@ -27,7 +27,11 @@ code {
   height: 25rem;
   border-radius: 4%;
 }
-
+.container > img:hover 
+{
+  box-shadow: 0 0 1px 1px rgb(75, 75, 232);
+  transition: box-shadow .2s ease-in-out;
+}
 main 
 {
   display: flex;
@@ -90,6 +94,16 @@ main > a
 {
   color: white;
   background-color: cornflowerblue;
+}
+.Btn__Email:hover
+{
+  box-shadow: 0 0 2px 2px rgb(75, 75, 232);
+  transition: box-shadow .2s ease-in-out;
+}
+.Btn__Linkedln:hover
+{
+  box-shadow: 0 0 2px 2px white;
+  transition: box-shadow .2s ease-in-out;
 }
 
 .About__me > h4

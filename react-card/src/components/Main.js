@@ -13,7 +13,7 @@ const Main = () => {
                 
                 <section className="Btn">
                     <button className="Btn__Email">Email</button>
-                    <button className="Btn__Linkedln">Linkedln</button>
+                    <button className="Btn__Linkedln" onclick="https://www.linkedin.com/in/rabie-ouallaf-79b120247/">Linkedln</button>
                 </section>
             
                 <section className="About__me">
